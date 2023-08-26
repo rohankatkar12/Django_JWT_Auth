@@ -40,3 +40,6 @@ class EmployeeSerializer(serializers.ModelSerializer):
 class LoginSerializer(serializers.Serializer):
     username = serializers.CharField()
     password = serializers.CharField()
+
+class OtpSerializer(serializers.Serializer):
+    otp = serializers.CharField()
