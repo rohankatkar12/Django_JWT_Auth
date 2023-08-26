@@ -40,3 +40,7 @@ class EmployeeSerializer(serializers.ModelSerializer):
 class LoginSerializer(serializers.Serializer):
     username = serializers.CharField()
     password = serializers.CharField()
+
+
+class DepartmentSerializer(serializers.Serializer):
+    department = serializers.CharField()
