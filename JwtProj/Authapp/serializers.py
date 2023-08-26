@@ -41,11 +41,8 @@ class LoginSerializer(serializers.Serializer):
     username = serializers.CharField()
     password = serializers.CharField()
 
-<<<<<<< HEAD
 class OtpSerializer(serializers.Serializer):
     otp = serializers.CharField()
-=======
 
 class DepartmentSerializer(serializers.Serializer):
     department = serializers.CharField()
->>>>>>> test
